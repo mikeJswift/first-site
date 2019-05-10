@@ -7,7 +7,8 @@ body {
     height: 100px;
     width: 100%;
     color: white;
-    background-color: rgb(19, 13, 13, 0.7);
+    /*background-color: rgb(19, 13, 13, 0.7);*/
+    background-color: brown;
     position: fixed;
     top: 0;
     z-index: 2;
