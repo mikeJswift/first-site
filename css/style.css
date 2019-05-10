@@ -1,0 +1,178 @@
+body {
+    margin: 0 auto;
+    font-family: 'Overlock', cursive;
+}
+
+.nav-bar {
+    height: 100px;
+    width: 100%;
+    color: white;
+    background-color: rgb(19, 13, 13, 0.7);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+.logo {
+    height: 110px;
+    width: 110px;
+    margin-left: 10px;
+    margin-top: -7px;
+}
+
+.nav-list{
+    float: right;
+    height: 100px;
+    width: 200px;
+    margin-right: 15px;
+    margin-top: 35px;
+}
+
+.list-item {
+    list-style-type: none;
+    display: inline;
+    margin-left: 20px;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.list-item a:hover {
+    color: green;
+}
+
+.hero-img{
+    background-image: url(../img/gibson64.jpg);
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    position: relative;
+    top: 100px;
+}
+
+.container {
+    border: 3px solid #292526;
+    border-radius: 20px 20px;
+    background-color: #4C4950;
+    height: 75px;
+    width: 259px;
+    position: absolute;
+    top: 175px;
+    right: 23%;
+    box-shadow: 3px 3px #ffffff;
+}
+
+.hero-text {
+    text-align: center;
+    margin-top: -2px;
+    font-family: 'Katibeh', cursive;
+    text-shadow: 2px 2px #000000;
+}
+
+.col-container {
+    height: 500px;
+    width: 100%;
+}
+
+.col-container p {
+    text-align:justify;
+    padding: 20px;
+}
+
+.column {
+    height: 600px;
+    width: 49.605%;
+    border: 3px solid #4C4950;
+    margin-top: 100px;
+}
+
+.one {
+    left: 0;
+    float: left;
+}
+
+.two {
+    right: 0;
+    float: left;
+}
+
+.col-img{
+    height: 395px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.footer {
+    height: 60px;
+    width: 100%;
+    color: white;
+    background-color: rgb(19, 13, 13, 0.7);
+    clear: both;
+}
+
+.footer-col {
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin-top: 10px
+}
+
+.submit, .submit-button, .fab {
+    margin-top: 7px;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+.fa-facebook-square {
+    color: #3f729b;
+}
+
+/*******************about CSS*********/
+
+.col-about {
+    height: 555px;
+    width: 100%%;
+    margin-top: 100px;
+    margin-bottom: 6px;
+}
+
+.columno {
+    height: 555px;
+    width: 32.939%;
+    border: 3px solid black;
+    float: left;
+}
+
+.about-img {
+    height: 396px;
+}
+
+.about-audio, .about-img, .about-video {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.about-text{
+    margin: 25px;
+}
+
+/****************contact CSS**********/
+
+h2 {
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    width: 300px;
+    border: solid 3px black;
+    border-radius: 20px 20px;
+}
+
+.map, .form{
+    margin-bottom: 20px;
+}
